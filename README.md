@@ -15,13 +15,13 @@ typecho-docker只是一个能运行 typecho 的 php-fpm docker镜像。
 2. 然后复制代码到typecho-docker挂载的目录，并把挂载的目录权限设为777
 3. nginx 配置文件也提供了，只需要把它放到nginx里面，并修改相应配置，重启 nginx 即可。
 
-## 镜像特性：
+## typecho-docker 镜像特性：
 
 1. 支持中文
 2. 把apt默认源改成了163.com apt源
 3. 安装了typecho所需要的扩展
 
-## php设置
+## php 设置
 
 1. 安装 pdo_mysql 扩展
 2. 开启 output_buffering
