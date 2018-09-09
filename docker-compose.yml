@@ -19,7 +19,7 @@ services:
     volumes:
       - ./mysql/data:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: youpassword
+      MYSQL_ROOT_PASSWORD: yourpassword
       MYSQL_DATABASE: typecho
     networks:
       - typecho
