@@ -18,7 +18,7 @@ typecho-docker只是一个能运行 typecho 的 php-fpm docker镜像。
 ## typecho-docker 镜像特性：
 
 1. 支持中文
-2. 把apt默认源改成了163.com apt源
+2. 把apt默认源改成了科大源
 3. 安装了typecho所需要的扩展
 
 ## php 设置
