@@ -4,7 +4,7 @@ typecho-docker只是一个能运行 typecho 的 php-fpm docker镜像。
 
 如果要运行 typecho 博客，需要以下步骤：
 
-1. 运行 typecho-docker 容器。。
+1. 运行 typecho-docker 容器。
 2. 运行一个mysql数据库。
 3. 把 typecho 代码挂载到 typecho-docker 容器中。
 3. 使用 nginx 代理到 typecho-docker 映射的端口。
